@@ -224,7 +224,7 @@ function App() {
     (row) =>
       row.name.toLowerCase().includes(search.toLowerCase()) ||
       row.number.toLowerCase().includes(search.toLowerCase()) ||
-      row.service.toLowerCase().includes(search.toLowerCase())
+      row.service?.toLowerCase().includes(search.toLowerCase())
   );
 
   return (
