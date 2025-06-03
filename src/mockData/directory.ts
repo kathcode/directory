@@ -1,0 +1,211 @@
+import type { IDirectoryItem } from "../types/common";
+
+export const directory: IDirectoryItem[] = [
+  {
+    name: "Rafael Abogado",
+    number: "647 9287276",
+    service: "Abogado Apelaciones",
+  },
+  {
+    name: "Gabriela Pablo",
+    number: "647 607 4642",
+    service: "Acupuntura Oakville y Burligton",
+  },
+  {
+    name: "Latin Travel",
+    number: "905 271 7772",
+    service: "Agencia de viajes",
+  },
+  { name: "Lini de Lopera", number: "647 5736925", service: "Arepa" },
+  {
+    name: "Gina Milton Latino Arepas",
+    number: "647 4259853",
+    service: "Arepas - Milton Latino",
+  },
+  {
+    name: "Maria Elena Mortano",
+    number: "647 8505391",
+    service: "Arreglos flores- Globos",
+  },
+  { name: "Cristina Garzan", number: "416 7793269", service: "Belleza" },
+  { name: "Margot", number: "647 894 3950", service: " Clases de manejo" },
+  { name: "Victor", number: "647 7645840", service: " Clases de manejo" },
+  {
+    name: "Laura Arquella",
+    number: "905 3343271",
+    service: " Clases para ninos",
+  },
+  {
+    name: "Mario Flores",
+    number: "416 570 0636",
+    service: " Contador - Taxes",
+  },
+  {
+    name: "Alicia",
+    number: "289 9716149",
+    service: " Corte de cabello nin@s",
+  },
+  {
+    name: "Zulia Garza",
+    number: "647 28018768",
+    service: " corte de cabello Passion X Hairbyjen",
+  },
+  {
+    name: "Sandra",
+    number: "647 6224426",
+    service: " Decoraciones - Tomasa Gifts &co",
+  },
+  {
+    name: "Cindy",
+    number: "647 7725319",
+    service: " decoraciones y eventos",
+  },
+  { name: "DJ Yesi", number: "905 516 8133", service: " DJ" },
+  { name: "Fernando DJ", number: " 226 808 3376", service: " DJ" },
+  { name: "Hana", number: " 416 558 5846", service: " Electricista" },
+  {
+    name: "Angelica Acosta",
+    number: " 416 9880170",
+    service: " Entrenadora fisica",
+  },
+  { name: "Vanessa", number: " 437 7764315", service: " Fotografa" },
+  { name: "Juan Merlano", number: "647 514 7716", service: " Fotografo" },
+  { name: "Rafael", number: "647 4617263", service: " Fotografo" },
+  {
+    name: "Todo lo puedo en Cristo",
+    number: " 365 8835280",
+    service: " Hidratacion facial, cuidado facial",
+  },
+  {
+    name: "Victor Chileno",
+    number: "416 9196473",
+    service: " Instalador de luces exteriores - Contractor",
+  },
+  { name: "Luis", number: " 343 541 7681", service: "Jardinero" },
+  {
+    name: "Gustavo Moreno Blanco",
+    number: "647 477 8702",
+    service: "Jardinero",
+  },
+  {
+    name: "Andres Felipe Vanegas",
+    number: " 905 74 0292",
+    service: "Llantas",
+  },
+  {
+    name: "Melissa Murillo",
+    number: "416 2069864",
+    service: "Fotografa",
+    social: { instagram: "@makka.photography" },
+  },
+  {
+    name: "Isabel Cristine",
+    number: " 437 234 3563",
+    service: " Manicurista",
+  },
+
+  {
+    name: "Sharon",
+    number: "647 621 8925",
+    service: "Marketing, Paginas web. estrategia digial, fotrografia, y videos",
+  },
+  { name: "Jose Toro", number: " 438 9301428", service: "Mecanico" },
+  {
+    name: "Auto Centre & Parts en Mains St",
+    number: "905 2030509",
+    service: "Mecanico",
+  },
+  { name: "Coy", number: "416 566 7290", service: "Mecanico" },
+  { name: "Alejandra Alfonzo", number: "647 625 0499", service: "Modista" },
+  {
+    name: "Caro Nutricionista",
+    number: "@carolinapulidonutricionista",
+    service: "Nutricion",
+  },
+  {
+    name: "Lenni",
+    number: " 437 974 9816",
+    service: " Pasteleria y reposteria",
+    social: { instagram: "@pastelitomio" },
+  },
+  { name: "Paola", number: " 905 749 1238", service: " Pet grooming" },
+  { name: "Agustin Arreglos", number: " 416 830 0990", service: " Plomero" },
+  { name: "Gaby", number: "647 410 2362", service: " Postres" },
+  {
+    name: "Liz",
+    number: "647 2107349",
+    service: " Profesora de Ingles academico",
+  },
+  {
+    name: "Leonor Amaya",
+    number: " 905 6915045",
+    service: " Profesora de Matematicas",
+  },
+  {
+    name: "Patty Galvan",
+    number: " 289 2420737",
+    service: " Pulseritas Cristales",
+  },
+  {
+    name: "Eva Roa",
+    number: " 905 699 5037",
+    service: " renta de sillas (Milton)",
+  },
+  {
+    name: "Liz Manita",
+    number: "647 512 5080",
+    service: " renta de sillas y mesas Brampton",
+  },
+  {
+    name: "Vlad",
+    number: "647 710 2031",
+    service: " Reparador de electrodomesticos",
+  },
+  {
+    name: "Catalina Mama Antonia",
+    number: "289 8858418",
+    service: " Seguros",
+  },
+  { name: "Carol", number: "647 9093368", service: " Seguros" },
+  {
+    name: "Adriana Valencia",
+    number: "647 401 7935",
+    service: " Seguros de negocios, de vida, enfermedades",
+  },
+  {
+    name: "Tita Cruz",
+    number: " 437 427 4375",
+    service: " Tamales Mexicanos",
+  },
+  { name: "Amada", number: " 289 9625780", service: " Tasas personalizadas" },
+  { name: "Fernando Mata", number: " 786 3443829", service: " Tecnico TV" },
+  { name: "Jimmi Traductor", number: " 519 2751570", service: " Traductor" },
+  {
+    name: "Adriana Traductora",
+    number: "647 3034831",
+    service: " Traductora certificada",
+  },
+  { name: "Ernesto Gonzalez", number: " 437 7667712", service: " Uber" },
+  { name: "Arminio", number: " 613 513 5692", service: " Uber" },
+  {
+    name: "Lizbeth Calvario",
+    number: " .+52 3112629660",
+    service: " Uñas, pestañas Microblading y mas",
+  },
+  {
+    name: "Maria del Carmen",
+    number: "647 222 1040",
+    service: " Venta de Joyas de plata mexicana",
+  },
+  {
+    name: "Beattie Pwet Hospital",
+    number: " 289 919 1231",
+    service: " Veterinario",
+  },
+  {
+    name: "Zulia Garza y Cristina Garza",
+    number: "647 915 3090",
+    service: "Modified Hair Studio",
+    social: { website: "https://modifiedhairstudio.ca" },
+  },
+];
