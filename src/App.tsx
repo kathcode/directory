@@ -18,6 +18,8 @@ import { directory } from "./mockData/directory";
 import ComputerIcon from "@mui/icons-material/Computer";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
+import { MenuIcons } from "./common/menuIcons/menuIcons";
+import Footer from "./features/footer/Footer";
 
 const style = {
   position: "absolute",
@@ -57,8 +59,9 @@ function App() {
   return (
     <>
       <Typography variant="h2" sx={{ mb: 4 }}>
-        Milton Latinas directory
+        Milton Latinas community
       </Typography>
+
       <Paper sx={{ padding: 2 }}>
         <Button variant="contained" onClick={handleOpen}>
           Add new contact
@@ -130,6 +133,7 @@ function App() {
           </Button>
         </Box>
       </Modal>
+      <Footer />
     </>
   );
 }
