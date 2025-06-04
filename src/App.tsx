@@ -116,9 +116,8 @@ function App() {
       >
         <Box sx={style}>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            To add a new contact to the directory you need to send a WhatsApp to
-            the number <strong>+1 647 782 97 82</strong> with the following
-            information:
+            To add a new contact please send a WhatsApp message to the number{" "}
+            <strong>+1 647 782 97 82</strong> with the following information:
           </Typography>
           <ul>
             <li>Name</li>
