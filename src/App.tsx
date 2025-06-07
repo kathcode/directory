@@ -6,6 +6,7 @@ import Footer from "./features/footer/Footer";
 import { Directory } from "./features/directory/Directory";
 import { useState } from "react";
 import { Restaurant } from "./features/restaurants/Restaurants";
+import { Events } from "./features/events/Events";
 
 function App() {
   const [active, setActive] = useState(0);
@@ -18,6 +19,8 @@ function App() {
       <MenuIcons setActive={setActive} />
       {active === 0 && <Directory />}
       {active === 1 && <Restaurant />}
+
+      {active === 2 && <Events />}
 
       <Footer />
     </>
