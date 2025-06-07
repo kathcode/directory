@@ -1,3 +1,5 @@
+import { Link, Typography } from "@mui/material";
+
 const Footer = () => {
   return (
     <footer
@@ -7,20 +9,19 @@ const Footer = () => {
         backgroundColor: "#f1f1f1",
       }}
     >
-      <p>
+      <Typography>
         &copy; {new Date().getFullYear()}{" "}
-        <a
+        <Link
           href="https://www.mountechcorp.com"
           target="_blank"
           rel="noopener noreferrer"
-          style={{ textDecoration: "none", color: "inherit" }}
         >
           Mountech
-        </a>
+        </Link>
         . All rights reserved.
         <br />
-        Designed and developed by Mountech
-      </p>
+        Designed and developed by Mountech Corp
+      </Typography>
     </footer>
   );
 };

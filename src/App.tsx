@@ -58,11 +58,13 @@ function App() {
 
   return (
     <>
-      <Typography variant="h2" sx={{ mb: 4 }}>
+      <Typography variant="h2" sx={{ m: 4 }}>
         Milton Latinas community
       </Typography>
 
-      <Paper sx={{ padding: 2 }}>
+      <MenuIcons />
+
+      <Paper sx={{ padding: 4, m: 4 }}>
         <Button variant="contained" onClick={handleOpen}>
           Add new contact
         </Button>
