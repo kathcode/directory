@@ -1,4 +1,4 @@
-import { Box, Button, Card, Paper, Typography } from "@mui/material";
+import { Box, Paper, Typography } from "@mui/material";
 import type { ReactElement } from "react";
 
 export const Icon = ({

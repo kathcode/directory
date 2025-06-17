@@ -1,6 +1,4 @@
 import "./App.css";
-import { Typography } from "@mui/material";
-
 import { MenuIcons } from "./common/menuIcons/menuIcons";
 import Footer from "./features/footer/Footer";
 import { Directory } from "./features/directory/Directory";
