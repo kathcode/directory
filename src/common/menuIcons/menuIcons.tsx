@@ -3,6 +3,7 @@ import CallIcon from "@mui/icons-material/Call";
 import { Icon } from "./Icon";
 import RestaurantIcon from "@mui/icons-material/Restaurant";
 import Diversity3Icon from "@mui/icons-material/Diversity3";
+import WorkIcon from "@mui/icons-material/Work";
 
 export const MenuIcons = ({
   setActive,
@@ -30,6 +31,13 @@ export const MenuIcons = ({
         title="Events"
         onClick={() => setActive(2)}
         icon={<Diversity3Icon fontSize="large" />}
+      />
+
+      <Icon
+        active={active === 3}
+        title="Job offers"
+        onClick={() => setActive(3)}
+        icon={<WorkIcon fontSize="large" />}
       />
     </Box>
   );

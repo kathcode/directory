@@ -6,6 +6,7 @@ import { useState } from "react";
 import { Restaurant } from "./features/restaurants/Restaurants";
 import { Events } from "./features/events/Events";
 import { Header } from "./features/header/Header";
+import { Jobs } from "./features/jobs/Jobs";
 
 function App() {
   const [active, setActive] = useState(0);
@@ -17,8 +18,8 @@ function App() {
 
       {active === 0 && <Directory />}
       {active === 1 && <Restaurant />}
-
       {active === 2 && <Events />}
+      {active === 3 && <Jobs />}
 
       <Footer />
     </>
