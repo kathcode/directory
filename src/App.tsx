@@ -7,14 +7,13 @@ import { Directory } from "./features/directory/Directory";
 import { useState } from "react";
 import { Restaurant } from "./features/restaurants/Restaurants";
 import { Events } from "./features/events/Events";
+import { Header } from "./features/header/Header";
 
 function App() {
   const [active, setActive] = useState(0);
   return (
     <>
-      <Typography variant="h2" sx={{ m: 4 }}>
-        Milton Latinas community
-      </Typography>
+      <Header />
 
       <MenuIcons setActive={setActive} active={active} />
 
