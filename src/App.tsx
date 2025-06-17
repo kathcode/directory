@@ -16,7 +16,8 @@ function App() {
         Milton Latinas community
       </Typography>
 
-      <MenuIcons setActive={setActive} />
+      <MenuIcons setActive={setActive} active={active} />
+
       {active === 0 && <Directory />}
       {active === 1 && <Restaurant />}
 

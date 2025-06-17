@@ -1,4 +1,4 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Button, Card, Paper, Typography } from "@mui/material";
 import type { ReactElement } from "react";
 
 export const Icon = ({
@@ -13,17 +13,23 @@ export const Icon = ({
   onClick: () => void;
 }) => (
   <Box>
-    <Button
+    <Paper
+      variant="outlined"
       sx={{
         padding: "20px",
-        background: `${active ? "#1976DC" : "#e1e0e0"}`,
-        color: `${active ? "#e1e0e0" : "#1976DC"}`,
+        borderColor: `${active ? "#1976DC" : "#b6b4b4"}`,
+        color: `${active ? "#1976DC" : "#b6b4b4"}`,
         margin: "4px",
+        cursor: "pointer",
+        textAlign: "center",
+        minWidth: "100px",
       }}
       onClick={onClick}
     >
-      {icon}
-      <Typography sx={{ ml: 2 }}>{title}</Typography>
-    </Button>
+      <Box component="section">{icon}</Box>
+      <Box component="section">
+        <Typography>{title}</Typography>
+      </Box>
+    </Paper>
   </Box>
 );

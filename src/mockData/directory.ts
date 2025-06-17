@@ -96,7 +96,7 @@ export const directory: IDirectoryItem[] = [
     name: "Melissa Murillo",
     number: "416 2069864",
     service: "Fotografa",
-    social: { instagram: "@makka.photography" },
+    social: { instagram: "makka.photography" },
   },
   {
     name: "Isabel Cristine",
@@ -126,7 +126,7 @@ export const directory: IDirectoryItem[] = [
     name: "Lenni",
     number: " 437 974 9816",
     service: " Pasteleria y reposteria",
-    social: { instagram: "@pastelitomio" },
+    social: { instagram: "pastelitomio" },
   },
   { name: "Paola", number: " 905 749 1238", service: " Pet grooming" },
   { name: "Agustin Arreglos", number: " 416 830 0990", service: " Plomero" },

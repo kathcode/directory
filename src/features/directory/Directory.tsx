@@ -1,6 +1,7 @@
 import {
   Box,
   Button,
+  Link,
   Modal,
   Paper,
   Table,
@@ -51,11 +52,23 @@ export const Directory = () => {
     }
   };
 
+  const getSocialLink = (
+    socialType: string,
+    socialLink: string | undefined
+  ) => {
+    if (!socialLink) return;
+    if (socialType === "instagram")
+      return `https://instagram.com/${socialLink}`;
+    if (socialType === "website") return `${socialLink}`;
+
+    return "";
+  };
+
   const headers = ["Name", "Phone number", "Service", "Social media"];
   return (
     <>
       <Paper sx={{ padding: 4, m: 4 }}>
-        <Button variant="contained" onClick={handleOpen}>
+        <Button variant="outlined" onClick={handleOpen}>
           Add new contact
         </Button>
         <TextField
@@ -87,8 +100,13 @@ export const Directory = () => {
                   {row?.social &&
                     Object.keys(row.social).map((value) => (
                       <TableCell>
-                        <Box>{getIcon(value)}</Box>
-                        <Box>{row?.social?.[value]}</Box>
+                        {getIcon(value)}
+                        <Link
+                          href={getSocialLink(value, row?.social?.[value])}
+                          target="_blank"
+                        >
+                          <Box>@{row?.social?.[value]}</Box>
+                        </Link>
                       </TableCell>
                     ))}
                 </TableRow>
