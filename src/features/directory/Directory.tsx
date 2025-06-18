@@ -67,7 +67,7 @@ export const Directory = () => {
   const headers = ["Name", "Phone number", "Service", "Social media"];
   return (
     <>
-      <Paper sx={{ padding: 4, m: 4 }}>
+      <Paper sx={{ padding: { xs: 2, md: 4 }, m: { xs: 2, md: 4 } }}>
         <Button variant="outlined" onClick={handleOpen}>
           Add new contact
         </Button>
