@@ -21,7 +21,7 @@ export const MenuIcons = ({
           pb: 2,
         }}
       >
-        <Stack direction="row" spacing={3}>
+        <Stack direction="row" spacing={2}>
           <Icon
             active={active === 0}
             title="Directory"
