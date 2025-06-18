@@ -149,7 +149,7 @@ export const directory: IDirectoryItem[] = [
   {
     name: "Eva Roa",
     number: " 905 699 5037",
-    service: " renta de sillas (Milton)",
+    service: " Renta de sillas / Docmicilios",
   },
   {
     name: "Liz Manita",
@@ -207,5 +207,10 @@ export const directory: IDirectoryItem[] = [
     number: "647 915 3090",
     service: "Modified Hair Studio",
     social: { website: "https://modifiedhairstudio.ca" },
+  },
+  {
+    name: "APA Automotive",
+    number: "289 851-6911",
+    service: "Mecanico",
   },
 ];
