@@ -18,6 +18,7 @@ import { directory } from "../../mockData/directory";
 import ComputerIcon from "@mui/icons-material/Computer";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
+import CloseIcon from "@mui/icons-material/Close";
 
 const style = {
   position: "absolute",
@@ -64,7 +65,21 @@ export const Directory = () => {
     return "";
   };
 
+  const closeIcon = {
+    ...(search
+      ? {
+          slotProps: {
+            input: {
+              endAdornment: <CloseIcon />,
+              onClick: () => setSearch(""),
+            },
+          },
+        }
+      : {}),
+  };
+
   const headers = ["Name", "Phone number", "Service", "Social media"];
+
   return (
     <>
       <Paper sx={{ padding: { xs: 2, md: 4 }, m: { xs: 2, md: 4 } }}>
@@ -75,8 +90,10 @@ export const Directory = () => {
           label="Search"
           variant="outlined"
           fullWidth
+          value={search}
           margin="normal"
           onChange={(e) => setSearch(e.target.value)}
+          {...closeIcon}
         />
 
         <TableContainer>
