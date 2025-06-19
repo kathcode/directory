@@ -213,4 +213,9 @@ export const directory: IDirectoryItem[] = [
     number: "289 851-6911",
     service: "Mecanico",
   },
+  {
+    name: "Paola Orozco",
+    number: "437 987 9083",
+    service: "Broker de seguros. (Auto, hogar, comercial, liability)",
+  },
 ];
